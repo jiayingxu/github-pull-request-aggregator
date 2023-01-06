@@ -15,9 +15,9 @@ Chrome extension.
 * Add a bookmark to the GitHub Pull requests page with the query params `q=authoraggregation+is:open+author:teammate-1+author:teammate-2`.
 * Any additional query parameters will be passed through to the underlying pull request search query.
 
-## Bookmarks for IX Team PRs
-* [Open PRs](https://github.com/pulls?q=authoraggregator+is%3Aopen+user%3AAddepar+author%3Aalex-anderson-addepar+author%3Aaslattum-addepar+author%3Agerryster+author%3AjamesHendersonAddepar+author%3Ajiayingxu+author%3Aswornimbarahi+author%3Awei-addepar+author%3Aoscarla-addepar)
-* [Closed PRs](https://github.com/pulls?q=authoraggregator+is%3Aclosed+user%3AAddepar+author%3Aalex-anderson-addepar+author%3Aaslattum-addepar+author%3Agerryster+author%3AjamesHendersonAddepar+author%3Ajiayingxu+author%3Aswornimbarahi+author%3Awei-addepar+author%3Aoscarla-addepar)
+## Bookmarks for ECX Team PRs
+* [Open PRs](https://github.com/pulls?q=authoraggregator+is%3Aopen+user%3AAddepar+author%3Aalex-anderson-addepar+author%3Aaslattum-addepar+author%3Agerryster+author%3AjamesHendersonAddepar+author%3Ajiayingxu+author%3Awei-addepar+author%3ANicholasMohr)
+* [Closed PRs](https://github.com/pulls?q=authoraggregator+is%3Aclosed+user%3AAddepar+author%3Aalex-anderson-addepar+author%3Aaslattum-addepar+author%3Agerryster+author%3AjamesHendersonAddepar+author%3Ajiayingxu+author%3Awei-addepar+author%3ANicholasMohr)
 
 ## Motivation
 I was looking for a way to get a list of all open PRs across my team and there wasn't a built-in way to do that in GitHub.
