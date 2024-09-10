@@ -41,7 +41,7 @@ function parseQuery() {
 
 async function fetchPullRequestList(author, query) {
     let response = await fetch(
-        `https://github.com/pulls?q=is%3Apr+author%3A${author}+archived%3Afalse+user%3AAddepar+${encodeURIComponent(query)}`
+        `https://github.com/pulls?q=is%3Apr+author%3A${author}+archived%3Afalse+${encodeURIComponent(query)}`
     );
     let text = await response.text();
     let parser = new DOMParser();
